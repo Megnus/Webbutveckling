@@ -1,0 +1,13 @@
+    Struktur: , , html, title
+    Metainformation: meta-taggar med name-attributen: author, description, generator, http-equiv, keywords, robots
+    Text: abbr, address, blockquote, br, cite, code, dfn, div, em, h1, h2, h3, h4, h5, h6, kbd, p, pre, q, samp, span, strong, var
+    Hypertext: a, inklusive:
+        Relativ och absolut länk
+        Länk till ankare
+        Bild-länk
+        Länk till olika protokoll (exempelvis ftp)
+        Mailto-länk
+    Oordnad, ordnad och beskriven lista: dl, dt, dd, ol, ul, li
+    Tabell: caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr
+    Bild: img
+    Bildkartor: area, map
