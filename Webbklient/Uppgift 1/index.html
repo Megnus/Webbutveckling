@@ -68,13 +68,17 @@
         <br>
         <h4>Metainformation:</h4>
         <p><b>meta</b> håller den metadata som representerar html-dokumentet. Till dessa hör description, keywords, author, osv.</p>
-        <p><b>author</b>  <i>Ex: &lt;meta name="author" content="Magnus Sundström"&gt;</i></p>
-        <p><b>description</b>  <i>Ex: &lt;meta name="description" content="Free Web tutorials"&gt;</i></p>
-        <p><b>generator</b> <i>Ex: &lt;meta name="generator" content="Brackets"&gt;</i></p>
-        <p><b>http-equiv</b>  <i>Ex: &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</i></p>
+        <p><b>author</b> Skaparen av sidan är representerad som meta-namnet authour. <i>Ex: &lt;meta name="author" content="Magnus Sundström"&gt;</i></p>
+        <p><b>description</b> Beskrivning av sidan kan göras med description. <i>Ex: &lt;meta name="description" content="Free Web tutorials"&gt;</i></p>
+        <p><b>generator</b> Beskrivningen av det program eller verktyg som genererat sidan. <i>Ex: &lt;meta name="generator" content="Brackets"&gt;</i></p>
+        <p><b>http-equiv</b> Med denna kan man skapa vissa storheter till sidan som refreshcyklel mm. <i>Ex: &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</i></p>
+		<p><b>hypertext a</b> Beskriver länkar och kan skrivas som t.ex. &lt;a href="url"&gt;link text&lt/a&gt;. Denna kommer att renderas som <a href="url">link text</a>.</p>
+		<p><b>Relativ länk</b> Denna är till skillnad från den absoluta länken relaterad till den plats som den aktuella html-filen befinner sig. <i>Ex: &lt;a href="../index.html"&gt;Hem&lt;/a&gt;</i>. Denna kommer att renderas som <a href="../index.html">Hem</a>.</p></p>
 
-      
-        
+		<br>
+		<br>
+		<br>
+		<br>
         <samp>
             Want to see it in action? Place your cursor on the <!-- <samp> --> tag above and press
             <kbd>Cmd/Ctrl + E</kbd>. You should see a CSS quick editor appear above, showing the CSS rule that
