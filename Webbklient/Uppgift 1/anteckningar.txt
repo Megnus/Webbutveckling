@@ -1,0 +1,77 @@
+abbr
+Denna står för abbrevaiation och kan användas för att förtydliga akronymer. Denna renders ut som en förklarande text när man "hovrar" över texten som den innesluter. Ex Websidan var ett <abbr title="Graphical User Interface">GUI</abbr> med många knappar.
+
+address
+Denna definerar kontaktinformationen för en specifik person som tex. skaparen eller den ansvariga för dokumentet. Ex:
+<address>
+Written by <a href="mailto:magnus@hotmail.com">Magnus Sundström</a>.<br> 
+Adress: Metargatan 9, Stockholm, Sweden
+</address> 
+
+blockquote
+Denna definerar ett eget block som separeras från den övriga texten. Denna brukar oftast indenteras av webbläsaren. Ex. 
+<blockquote cite="http://www.index.html">Här har vi ett blockquote.</blockquote>
+
+br
+Denna definerar en ny rad. Ex. Här kommer en<br>ny rad.
+
+cite
+Denna definerar en titel för ett verk. Ex. Kursen <cite>1.1 Grunderna i HTML5</cite> är namnet på kursen.
+
+code
+Definerar en text som är en del av programkod. Ex. <code>20: GOTO 19</code> gjorde att datorn kraschade.
+
+dfn
+Kan användas som definition av ett ord. Detta kan användas flitigt i detta dokument då olika tags ska defineras. Ex. <dfn><dfn></dfn> Kan användas som...
+
+div
+Definierar en sektion av ett dokument. Detta kan vara väldigt bra för att definerar avgränsningar och behöver inte vara av visuellt syfte. <div>Text i en div.</div>
+
+em
+Skapar en "Emphasized text" för att synliggöra ord som renderas som fetstilt text. Ex. <em>Fetstilt</em>
+
+h1, h2, h3, h4, h5, h6
+Dessa används för att definera överskrifter eller titelord i ett html-dokumnet. h står för header och där h1 renderar den största texten och stegar sig ned till h6 som renderar den minsta texten. Ex.  
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+
+kbd
+Definerar input från tangentbordet. Ex. <kbd>qwerty</kbd>
+
+p
+Definerar en paragraf. Denna är väldigt vandlig när man skapar text i ett html-dokumnet och skapar även lite utrymme mellan andra element. <p>Lite text...</p><p>Lite mer text...</p
+
+pre
+Står för preformatted text och är text som är formaterad med fixed bredd som även bevarar mellanslag och radbyte. Ex. <pre>Lite text...    Och lite mer text...</pre>
+
+q
+Definerar ett kortare citat. Ex. Manson skrev en gång <q>I do not have enough middlefingers</q>.
+
+samp
+Definerar en utrskrift från ett datorprogram. Ex <samp>SYNTAX ERROR on row 34<samp>
+
+span
+Används för att gruppera inline-element för att sedan kunna moduleras med tex. css. Ex. Följande ord är röd: <span style="color:red">red</span>.
+
+strong
+Definerar viktig text och renderas i de flesta webbläsare som fetstilt. Ex. Följande text är strong: <strong>strong</strong>.
+
+var
+Defjinerar en variable. Ex. I programmet så användes <var>count</var> som räknare.
+
+Länk till olika protokoll
+Man kan länka till olika protokoll och om inget är angivet så används html. De flesta webläsare kan rendera filer från ex. ftp server. Ex <a href="ftp://myserver.com>ftp files</a>.
+
+Mailto-länk
+Denna kan användas för att skicka ett mail. Om man klickar på denna så brukar denna vara associerat med ett installerat mailprograwm som exempelvis Outlook. Ex. <a href="mailto:me@email.com">Mail me</a>
+
+Oordnad, ordnad och beskriven lista: dl, dt, dd, ol, ul, li
+
+
+Tabell: caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr
+Bild: img
+Bildkartor: area, map
